@@ -51,17 +51,20 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Add scroll effect to navbar
+    // Add scroll effect to navbar (hide/show on scroll)
+    let lastScrollTop = 0;
     window.addEventListener('scroll', function() {
         const navbar = document.querySelector('.navbar');
         if (navbar) {
-            if (window.scrollY > 100) {
-                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
-                navbar.style.backdropFilter = 'blur(10px)';
-            } else {
-                navbar.style.background = '#fff';
-                navbar.style.backdropFilter = 'none';
+            let st = window.pageYOffset || document.documentElement.scrollTop;
+            if (st > lastScrollTop && st > navbar.offsetHeight) {
+                // Scrolling down
+                navbar.classList.add('navbar-hidden');
+            } else if (st < lastScrollTop) {
+                // Scrolling up
+                navbar.classList.remove('navbar-hidden');
             }
+            lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
         }
     });
 
