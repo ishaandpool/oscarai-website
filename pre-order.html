@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Order - OscarAI</title>
+    <link rel="icon" href="correctLogo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="correctLogo.png" alt="OscarAI Logo">
+                <h2 style="font-family: 'Instrument Serif', serif;">OscarAI</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="recruitment.html" class="nav-link">Recruitment</a></li>
+                <li><a href="our-story.html" class="nav-link">Our Story</a></li>
+                <li><a href="pre-order.html" class="nav-link active">Pre-Order</a></li>
+                <li><a href="fundraising.html" class="nav-link">Fundraising</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>Pre-Order OscarAI</h1>
+                <p>Be among the first to revolutionize waste management in your facility</p>
+            </div>
+        </section>
+
+        <!-- Product Overview -->
+        <section class="product-overview">
+            <div class="container">
+                <div class="product-content">
+                    <div class="product-image">
+                        <img src="finalProd.jpg" alt="OscarAI Final Product" class="product-img">
+                    </div>
+                    <div class="product-details">
+                        <h2>OscarAI Waste Sorting System</h2>
+                        <p class="product-description">
+                            The world's first AI-powered waste sorting solution that automatically separates recycling from trash with 96% accuracy. 
+                            Reduce labor costs, improve recycling rates, and contribute to a more sustainable future.
+                        </p>
+                        <div class="product-specs">
+                            <h3>Key Specifications:</h3>
+                            <ul>
+                                <li>   94% sorting accuracy</li>
+                                <li>   Processes waste faster than human operators</li>
+                                <li>   26.5% more accurate than humans</li>
+                                <li>   Can detect liquid and food residue invisble to cameras</li>
+                                <li>   Scalable for various facility sizes</li>
+                                <li>   Easy maintenance and setup</li>
+                            </ul>
+                        </div>
+                        <div class="product-pricing">
+                            <h3>Choose Your OscarAI</h3>
+                            <p class="pricing-subtitle">Waste sorting revolutionized for every need</p>
+                            <div class="price-tiers">
+                                <div class="price-tier">
+                                    <h3>Early Bird</h3>
+                                    <h4>OscarAI Home</h4>
+                                    <div class="price">$199</div>
+                                    <div class="original-price">$249</div>
+                                    <div class="savings">Save $50</div>
+                                    <p class="tier-subtitle">Waste sorting revolutionized for every need</p>
+                                    <ul>
+                                        <li>Universal bin compatibility</li>
+                                        <li>81% sorting accuracy</li>
+                                        <li>Mobile app integration</li>
+                                        <li>One-year warranty</li>
+                                    </ul>
+                                    <button class="btn btn-primary">Pre-Order Soon</button>
+                                </div>
+                                <div class="price-tier featured">
+                                    <h3>Most Popular</h3>
+                                    <h4>OscarAI Pro</h4>
+                                    <div class="price">$299</div>
+                                    <div class="original-price">$399</div>
+                                    <div class="savings">Save $100</div>
+                                    <p class="tier-subtitle">Commercial grade solution</p>
+                                    <ul>
+                                        <li>All Home features</li>
+                                        <li>Advanced analytics</li>
+                                        <li>Multi-bin management</li>
+                                        <li>Priority support</li>
+                                        <li>Commercial grade</li>
+                                    </ul>
+                                    <button class="btn btn-primary">Pre-Order Soon</button>
+                                </div>
+                                <div class="price-tier">
+                                    <h3>For Schools</h3>
+                                    <h4>OscarAI Enterprise</h4>
+                                    <div class="price">Custom</div>
+                                    <p class="tier-subtitle">Enterprise-grade deployment</p>
+                                    <ul>
+                                        <li>Bulk deployment</li>
+                                        <li>Custom integrations</li>
+                                        <li>Dedicated account manager</li>
+                                        <li>SLA guarantees</li>
+                                        <li>Training & onboarding</li>
+                                    </ul>
+                                    <button class="btn btn-secondary">Contact Sales</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pre-Order Form -->
+        <section class="pre-order-form">
+            <div class="container">
+                <h2 class="section-title">Reserve Your OscarAI System</h2>
+                <div class="form-container">
+                    <form class="order-form" id="preOrderForm">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company/Organization *</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="facilityType">Facility Type *</label>
+                            <select id="facilityType" name="facilityType" required>
+                                <option value="">Select facility type</option>
+                                <option value="office">Office Building</option>
+                                <option value="industrial">Industrial Facility</option>
+                                <option value="retail">Retail Store</option>
+                                <option value="restaurant">Restaurant</option>
+                                <option value="school">School/University</option>
+                                <option value="hospital">Hospital/Healthcare</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="estimatedWaste">Estimated Daily Waste Volume *</label>
+                            <select id="estimatedWaste" name="estimatedWaste" required>
+                                <option value="">Select volume</option>
+                                <option value="0-100kg">0-100 kg</option>
+                                <option value="100-500kg">100-500 kg</option>
+                                <option value="500kg-1ton">500 kg - 1 ton</option>
+                                <option value="1-5tons">1-5 tons</option>
+                                <option value="5+tons">5+ tons</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="deploymentDate">Expected Deployment Date *</label>
+                            <select id="deploymentDate" name="deploymentDate" required>
+                                <option value="">Select timeline</option>
+                                <option value="q2-2024">Q4 2025</option>
+                                <option value="q3-2024">Q2 2026</option>
+                                <option value="q4-2024">Q3 2026</option>
+                                <option value="q1-2025">Q1 2027</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="pricingTier">Pricing Tier *</label>
+                            <div class="pricing-options">
+                                <label class="pricing-option">
+                                    <input type="radio" name="pricingTier" value="home" required>
+                                    <span class="option-content">
+                                        <strong>OscarAI Home - $199</strong>
+                                        <small>Early Bird pricing - Save $50</small>
+                                    </span>
+                                </label>
+                                <label class="pricing-option">
+                                    <input type="radio" name="pricingTier" value="pro" required>
+                                    <span class="option-content">
+                                        <strong>OscarAI Pro - $299</strong>
+                                        <small>Most Popular - Save $100</small>
+                                    </span>
+                                </label>
+                                <label class="pricing-option">
+                                    <input type="radio" name="pricingTier" value="enterprise" required>
+                                    <span class="option-content">
+                                        <strong>OscarAI Enterprise - Custom</strong>
+                                        <small>For Schools & Bulk Deployments</small>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="additionalInfo">Additional Information</label>
+                            <textarea id="additionalInfo" name="additionalInfo" rows="4" placeholder="Tell us about your specific needs, questions, or requirements..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" id="newsletter">
+                                <span class="checkmark"></span>
+                                Subscribe to our newsletter for updates and industry insights
+                            </label>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="terms" id="terms" required>
+                                <span class="checkmark"></span>
+                                I agree to the <a href="#" class="terms-link">Terms and Conditions</a> and <a href="#" class="terms-link">Privacy Policy</a> *
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary submit-btn">Submit Pre-Order</button>
+                    </form>
+                    
+                    <div class="form-info">
+                        <h3>What Happens Next?</h3>
+                        <div class="info-steps">
+                            <div class="info-step">
+                                <div class="step-icon">📧</div>
+                                <h4>Confirmation Email</h4>
+                            </div>
+                            <div class="info-step">
+                                <div class="step-icon">📞</div>
+                                <h4>Consultation Call</h4>
+                            </div>
+                            <div class="info-step">
+                                <div class="step-icon">📋</div>
+                                <h4>Site Assessment</h4>
+                            </div>
+                            <div class="info-step">
+                                <div class="step-icon">🚀</div>
+                                <h4>Deployment</h4>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info">
+                            <h3>Questions?</h3>
+                            <p>Contact our sales team:</p>
+                            <p>📧 oscarai.ca/contact</p>
+                            <p>📞 +1 (123) 456-7890</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>When will OscarAI systems be available?</h3>
+                        <p>We're planning to begin deployments in Q4 2025. Pre-orders help us prioritize installations and ensure you get your system as soon as possible.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What's included in the pre-order price?</h3>
+                        <p>The price includes the complete OscarAI system, installation, initial setup, staff training, and 1 year of warranty and support.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I cancel my pre-order?</h3>
+                        <p>Yes, you can cancel your pre-order at any time before the final contract is signed. We'll refund any deposits made.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What maintenance is required?</h3>
+                        <p>OscarAI requires minimal maintenance. Our system includes self-diagnostic capabilities and remote monitoring to ensure optimal performance.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How long does installation take?</h3>
+                        <p>Typical installation takes 1-2 days, depending on your facility's setup and requirements.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Is financing available?</h3>
+                        <p>Yes, we offer flexible financing options to help spread the cost over time. Contact our sales team for details.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Transform Your Waste Management?</h2>
+                    <p>Join the revolution and be among the first to experience AI-powered waste sorting.</p>
+                    <a href="#preOrderForm" class="btn btn-primary">Pre-Order Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>OscarAI</h3>
+                    <p style="color: #ffffff;">Revolutionizing waste management with AI technology.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recruitment.html">Recruitment</a></li>
+                        <li><a href="our-story.html">Our Story</a></li>
+                        <li><a href="pre-order.html">Pre-Order</a></li>
+                        <li><a href="fundraising.html">Fundraising</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p style="color: #ffffff;">Email: info@oscarai.com</p>
+                    <p style="color: #ffffff;">Sales: sales@oscarai.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p style="color: #ffffff;">&copy; 2024 OscarAI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
