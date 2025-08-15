@@ -378,22 +378,6 @@ p {
     margin-bottom: 20px; /* Add space between vertically stacked cards */
 }
 
-/* Adjustments for hierarchical display */
-.org-card.level-0 {
-    margin-left: 0;
-}
-
-.org-card.level-1 {
-    margin-left: 20px; /* Indent slightly for hierarchy */
-}
-
-.org-card.level-2 {
-    margin-left: 40px; /* Further indent */
-}
-
-.org-card.level-3 {
-    margin-left: 60px; /* Most indented */
-}
 
 .org-card {
     background: #ffffff; /* White */
